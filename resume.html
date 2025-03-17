@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Categorization</title>
+</head>
+<body>
+
+    <h2>Upload Resume for Categorization</h2>
+    
+    <form action="/predict" method="POST" enctype="multipart/form-data">
+        <input type="file" name="resume" accept=".pdf" required>
+        <br><br>
+        <button type="submit">Upload and Predict</button>
+    </form>
+
+</body>
+</html>
